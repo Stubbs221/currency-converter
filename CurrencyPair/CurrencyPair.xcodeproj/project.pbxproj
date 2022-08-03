@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		045778B7288D4E0E00AB41BA /* AddCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045778B6288D4E0E00AB41BA /* AddCurrencyView.swift */; };
 		045778BB288D4E9800AB41BA /* Extension + AddCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045778BA288D4E9800AB41BA /* Extension + AddCurrencyView.swift */; };
+		045778BD288DDC9700AB41BA /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045778BC288DDC9700AB41BA /* Extension + UIView.swift */; };
 		04689A26288C3896006C56A6 /* EmptyDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689A25288C3896006C56A6 /* EmptyDataVC.swift */; };
 		04689A28288C38BA006C56A6 /* Extension + EmptyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689A27288C38BA006C56A6 /* Extension + EmptyDataView.swift */; };
 		04A2531B288ADE4900883425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2531A288ADE4900883425 /* AppDelegate.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		045778B6288D4E0E00AB41BA /* AddCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurrencyView.swift; sourceTree = "<group>"; };
 		045778BA288D4E9800AB41BA /* Extension + AddCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + AddCurrencyView.swift"; sourceTree = "<group>"; };
+		045778BC288DDC9700AB41BA /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
 		04689A25288C3896006C56A6 /* EmptyDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataVC.swift; sourceTree = "<group>"; };
 		04689A27288C38BA006C56A6 /* Extension + EmptyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + EmptyDataView.swift"; sourceTree = "<group>"; };
 		04A25317288ADE4900883425 /* CurrencyPair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyPair.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				04A2534A288ADF9700883425 /* Extension + MainView.swift */,
+				045778BC288DDC9700AB41BA /* Extension + UIView.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				04689A28288C38BA006C56A6 /* Extension + EmptyDataView.swift in Sources */,
 				04A25353288AE08E00883425 /* NetworkRequestService.swift in Sources */,
 				04689A26288C3896006C56A6 /* EmptyDataVC.swift in Sources */,
+				045778BD288DDC9700AB41BA /* Extension + UIView.swift in Sources */,
 				04A2534B288ADF9700883425 /* Extension + MainView.swift in Sources */,
 				045778BB288D4E9800AB41BA /* Extension + AddCurrencyView.swift in Sources */,
 				045778B7288D4E0E00AB41BA /* AddCurrencyView.swift in Sources */,
