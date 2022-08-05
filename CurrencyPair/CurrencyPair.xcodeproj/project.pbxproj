@@ -12,6 +12,8 @@
 		045778BD288DDC9700AB41BA /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045778BC288DDC9700AB41BA /* Extension + UIView.swift */; };
 		04689A26288C3896006C56A6 /* EmptyDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689A25288C3896006C56A6 /* EmptyDataVC.swift */; };
 		04689A28288C38BA006C56A6 /* Extension + EmptyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689A27288C38BA006C56A6 /* Extension + EmptyDataView.swift */; };
+		049456E1289AB65E00CE5E05 /* AddCurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049456E0289AB65E00CE5E05 /* AddCurrencyCell.swift */; };
+		049456E5289C0BDF00CE5E05 /* TitleStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049456E4289C0BDF00CE5E05 /* TitleStackView.swift */; };
 		04A2531B288ADE4900883425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2531A288ADE4900883425 /* AppDelegate.swift */; };
 		04A2531D288ADE4900883425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2531C288ADE4900883425 /* SceneDelegate.swift */; };
 		04A25324288ADE4B00883425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A25323288ADE4B00883425 /* Assets.xcassets */; };
@@ -36,13 +38,15 @@
 		045778BC288DDC9700AB41BA /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
 		04689A25288C3896006C56A6 /* EmptyDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataVC.swift; sourceTree = "<group>"; };
 		04689A27288C38BA006C56A6 /* Extension + EmptyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + EmptyDataView.swift"; sourceTree = "<group>"; };
+		049456E0289AB65E00CE5E05 /* AddCurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurrencyCell.swift; sourceTree = "<group>"; };
+		049456E4289C0BDF00CE5E05 /* TitleStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleStackView.swift; sourceTree = "<group>"; };
 		04A25317288ADE4900883425 /* CurrencyPair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyPair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A2531A288ADE4900883425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A2531C288ADE4900883425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04A25323288ADE4B00883425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A25328288ADE4B00883425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A25332288ADE8500883425 /* CurrencyData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CurrencyData.xcdatamodel; sourceTree = "<group>"; };
-		04A25334288ADE9500883425 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = "../../Currency app/Currency app/CoreDataStack.swift"; sourceTree = "<group>"; };
+		04A25334288ADE9500883425 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		04A25336288ADF1200883425 /* Currency+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataClass.swift"; sourceTree = "<group>"; };
 		04A25337288ADF1200883425 /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		04A2533F288ADF6900883425 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				045778B6288D4E0E00AB41BA /* AddCurrencyView.swift */,
+				049456E0289AB65E00CE5E05 /* AddCurrencyCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,8 +195,7 @@
 				04A2533E288ADF6900883425 /* Model */,
 				04A25340288ADF6900883425 /* View */,
 			);
-			name = MainModule;
-			path = "../../Currency app/Currency app/MainModule";
+			path = MainModule;
 			sourceTree = "<group>";
 		};
 		04A2533D288ADF6900883425 /* Controller */ = {
@@ -226,8 +230,7 @@
 				045778B8288D4E6500AB41BA /* EmptyDataModel */,
 				04A25349288ADF9700883425 /* MainModule */,
 			);
-			name = Extensions;
-			path = "../../Currency app/Currency app/Extensions";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		04A25349288ADF9700883425 /* MainModule */ = {
@@ -245,9 +248,9 @@
 				04A2534F288AE08E00883425 /* CoreDataServives.swift */,
 				04A25350288AE08E00883425 /* NetworkRequestService.swift */,
 				04A25351288AE08E00883425 /* LaunchScreenBuilder.swift */,
+				049456E4289C0BDF00CE5E05 /* TitleStackView.swift */,
 			);
-			name = Helpers;
-			path = "../../Currency app/Currency app/Helpers";
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +331,7 @@
 			files = (
 				04A25344288ADF6900883425 /* Model.swift in Sources */,
 				04A25346288ADF6900883425 /* MainView.swift in Sources */,
+				049456E5289C0BDF00CE5E05 /* TitleStackView.swift in Sources */,
 				04A25352288AE08E00883425 /* CoreDataServives.swift in Sources */,
 				04A25335288ADE9500883425 /* CoreDataStack.swift in Sources */,
 				04A25338288ADF1200883425 /* Currency+CoreDataClass.swift in Sources */,
@@ -340,6 +344,7 @@
 				04689A28288C38BA006C56A6 /* Extension + EmptyDataView.swift in Sources */,
 				04A25353288AE08E00883425 /* NetworkRequestService.swift in Sources */,
 				04689A26288C3896006C56A6 /* EmptyDataVC.swift in Sources */,
+				049456E1289AB65E00CE5E05 /* AddCurrencyCell.swift in Sources */,
 				045778BD288DDC9700AB41BA /* Extension + UIView.swift in Sources */,
 				04A2534B288ADF9700883425 /* Extension + MainView.swift in Sources */,
 				045778BB288D4E9800AB41BA /* Extension + AddCurrencyView.swift in Sources */,
